@@ -4,7 +4,7 @@
 @implementation StorageInfoPlugin
 
 + (void)registerWithRegistrar:(NSObject<FlutterPluginRegistrar> *)registrar {
-  [StorageInfoPlugin registerWithRegistrar:registrar];
+  [SwiftStorageInfoPlugin registerWithRegistrar:registrar];
 }
 
 @end

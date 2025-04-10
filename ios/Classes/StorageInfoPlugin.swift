@@ -1,11 +1,11 @@
 import Flutter
 import UIKit
 
-public class StorageInfoPlugin: NSObject, FlutterPlugin {
+public class SwiftStorageInfoPlugin: NSObject, FlutterPlugin {
     public static func register(with registrar: FlutterPluginRegistrar) {
         let channel = FlutterMethodChannel(
             name: "com.example.storage_info", binaryMessenger: registrar.messenger())
-        let instance = StorageInfoPlugin()
+        let instance = SwiftStorageInfoPlugin()
         registrar.addMethodCallDelegate(instance, channel: channel)
     }
 
