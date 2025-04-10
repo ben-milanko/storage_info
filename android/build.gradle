@@ -1,4 +1,4 @@
-group 'com.example.storage_info'
+group 'com.res.storage_info'
 version '1.0-SNAPSHOT'
 
 buildscript {
